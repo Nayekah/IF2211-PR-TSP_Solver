@@ -44,7 +44,6 @@
 </p>
 
 <br/>
-<br/>
 
 #### Ryo:
 <div style="text-align: justify">
@@ -69,13 +68,15 @@ Hey, my boyfriend made this awesome Traveling Salesman Problem solver in Rust. I
 ### How to Install
 
 <a id="dependencies"></a>
-> [!IMPORTANT]  
-> If you're using linux (mainly Ubuntu or Debian distro), make sure that java 11 is installed, or you can do:
+> [!TIP]  
+> If you're using linux (mainly Ubuntu or Debian distro), do:
    ```
    sudo apt update
-   sudo apt install openjdk-11-jdk
-   sudo apt install gradle
+   curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+   source "$HOME/.cargo/env"
 ```
+> If you're using windows, please refer to https://www.rust-lang.org/tools/install
+
 ---
  ## How to Run
  ### Command Line Interface
@@ -100,7 +101,7 @@ Hey, my boyfriend made this awesome Traveling Salesman Problem solver in Rust. I
 <br/>
 
 > [!Note]
-> Make sure that all of the dependencies are already installed
+> Make sure that all of the dependencies are already installed, and make sure the the executable is already built (please refer to "Build and Clean" section to build the app)
 
 ---
  ## Build and Clean
