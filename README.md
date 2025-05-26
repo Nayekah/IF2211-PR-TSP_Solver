@@ -39,6 +39,8 @@
     <a href="https://youtu.be/7FDRQifEMUQ?si=gKheP3GnBORXsDY4">Kessoku!</a>
     ·
     <a href="https://github.com/Nayekah/IF2211-PR-TSP_Solver-13523090/releases/">Releases</a>
+    ·
+    <a href="https://github.com/Nayekah/IF2211-PR-TSP_Solver-13523090/main/LICENSE">License</a>
 </p>
 
 ---
