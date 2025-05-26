@@ -43,6 +43,14 @@
     <a href="https://github.com/Nayekah/IF2211-PR-TSP_Solver-13523090/blob/main/LICENSE">License</a>
 </p>
 
+<br/>
+<br/>
+
+#### Ryo:
+<div style="text-align: justify">
+Hey, my boyfriend made this awesome Traveling Salesman Problem solver in Rust. It's a slick program that finds the shortest route for a salesman to visit a bunch of cities and return to the starting point using dynamic programming algorithm. Written in Rust, it’s fast, efficient, and honestly, pretty cool—though I’d never admit that to his face!
+</div>
+
 ---
 ## Installation & Setup
  
