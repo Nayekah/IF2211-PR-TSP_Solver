@@ -38,53 +38,92 @@
     <br />
     <a href="https://youtu.be/7FDRQifEMUQ?si=gKheP3GnBORXsDY4">Kessoku!</a>
     ·
-    <a href="https://github.com/Fariz36/Tucil3_13523069_13523090/tree/main/doc/Tucil3_13523069_13523090.pdf">Project Report (Bahasa Indonesia)</a>
+    <a href="https://github.com/Nayekah/IF2211-PR-TSP_Solver-13523090/releases/">Releases</a>
 </p>
 
+---
+## Installation & Setup
+ 
 ### Requirements
-- Python 3.8
-- Dependencies (listed [here](./pyproject.toml))
+- Git
+- Rust (rustc 1.83.0++)
+- Cargo (cargo 1.83.0++)
+
+<br/>
 
 > [!IMPORTANT]
-> This project is managed with [uv](https://github.com/astral-sh/uv) and it's recommended to install the package manager on your system and run this application (not glazing btw)
+> Make sure to have the latest version of the requirements
 
-### Running the Application With `uv`
+<br/>
 
-1. Clone this repo
-   ```bash
-   git clone https://github.com/l0stplains/Tubes3_TheRecruiter.git
-   ```
-   > or just clicks button on your git gui if you feel uncomfortable with terminal
-2. Navigate to the cloned repository.
-      ```bash
-   cd ./Tubes3_TheRecruiter
-   ```
-3. Make sure to use python 3.8:
-   ```bash
-   uv python install 3.8
-   uv python pin 3.8
-   ```
-4. Run the program:
-   ```bash
-   uv run -m src
-   ```
-> [!NOTE]
-> If you are planning to develop, you must set your system python to use version 3.8 and install pyqt5-tools
+### How to Install
 
-### Running the Application With `pip` (not recommended)
-1. Clone this repo
-   ```bash
-   git clone https://github.com/l0stplains/Tubes3_TheRecruiter.git
+<a id="dependencies"></a>
+> [!IMPORTANT]  
+> If you're using linux (mainly Ubuntu or Debian distro), make sure that java 11 is installed, or you can do:
    ```
-   > or just clicks button on your git gui if you feel uncomfortable with terminal
-2. Navigate to the cloned repository.
-      ```bash
-   cd ./Tubes3_TheRecruiter
-   ```
-3. Make sure to use python 3.8
-4. Install all dependencies listed on the [pyproject.toml](./pyproject.toml) file
-5. Run the program:
-   ```bash
-   python -m src
-   ```
+   sudo apt update
+   sudo apt install openjdk-11-jdk
+   sudo apt install gradle
+```
 ---
+ ## How to Run
+ ### Command Line Interface
+ 1. Open a terminal
+ 2. Clone the repository (if not already cloned)
+       ```bash
+    git clone https://github.com/Nayekah/IF2211-PR-TSP_Solver-13523090.git
+    
+ 3. go to IF2211-PR-TSP_Solver-13523090 directory:
+       ```bash
+    cd IF2211-PR-TSP_Solver-13523090
+    
+ 4. Install the [dependencies](#dependencies) first
+ 5. Do: 
+    ```bash
+    # Windows
+    .\run.bat
+
+    # Linux
+    ./run.sh
+
+<br/>
+
+> [!Note]
+> Make sure that all of the dependencies are already installed
+
+---
+ ## Build and Clean
+ 1. Open a terminal
+ 2. Clone the repository (if not already cloned)
+       ```bash
+    git clone https://github.com/Nayekah/IF2211-PR-TSP_Solver-13523090.git
+    
+ 3. go toI F2211-PR-TSP_Solver-13523090 directory:
+       ```bash
+    cd IF2211-PR-TSP_Solver-13523090
+ 5. Install the [dependencies](#dependencies) first
+
+ 7. Do: 
+    ```bash
+    Cleaning setup
+    # Windows
+    .\clean.bat
+
+    # Linux
+    ./clean.sh
+
+
+    Building executable
+    # Both Operating System
+    
+    cargo build --release
+
+ <br/>
+ <br/>
+ <br/>
+ <br/>
+
+ <div align="center">
+ Strategi Algoritma • © 2025 • Nayaka Ghana Subrata
+ </div>
