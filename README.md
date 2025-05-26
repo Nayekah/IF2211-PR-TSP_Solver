@@ -132,28 +132,28 @@ Hey, my boyfriend made this awesome Traveling Salesman Problem solver in Rust. I
 ---
 ## Repository Structures
 ```
-IF2211-PR-TSP_Solver-13523090
+📂 IF2211-PR-TSP_Solver-13523090/
 ├── LICENSE
 ├── README.md
-├── benches (benchmark tester)
+├── 📂 benches/ (benchmark tester)
 │   └── tsp_benchmark.rs
 ├── cargo.toml
 ├── clean.bat
 ├── clean.sh
-├── data (testcases)
+├── 📂 data/ (testcases)
 │   ├── example1.txt
 │   ├── example2.txt
 │   ├── sample_large.txt
 │   ├── sample_medium.txt
 │   └── sample_small.txt
-├── result (screenshot results from testcases)
+├── 📂 result/ (screenshot results from testcases)
 │   ├── example1_result-1.png
 │   ├── example1_result-2.png
 │   ├── example1_result-3.png
 │   └── example1_result-4.png
 ├── run.bat
 ├── run.sh
-└── src (source code)
+└── 📂 src/ (source code)
     ├── config.rs
     ├── graph.rs
     ├── lib.rs
